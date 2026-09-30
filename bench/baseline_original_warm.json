@@ -1,0 +1,34 @@
+{
+  "label": "baseline-warm",
+  "variant": "720p",
+  "segments": 8,
+  "media_seconds": 46.613,
+  "wall_seconds": 32.027,
+  "master_ms": 0.67,
+  "playlist_ms": 0.69,
+  "ttff_ms": 19.2,
+  "first_segment_ms": 17.7,
+  "seg_ms": {
+    "min": 3.6,
+    "p50": 4.2,
+    "p95": 17.7,
+    "max": 17.7,
+    "mean": 5.9
+  },
+  "stalls": 0,
+  "stall_ms": 0.0,
+  "min_buffer_s": 6.0,
+  "bytes": 16509032,
+  "mbps": 2.833,
+  "server": {
+    "segment_requests": null,
+    "cache_hit": null,
+    "waited": null,
+    "generated_by_request": null,
+    "prefetch_generated": null,
+    "prefetch_useful": null,
+    "gen_avg_ms": null,
+    "ttff_ms": null,
+    "latency_p95": null
+  }
+}

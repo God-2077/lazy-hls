@@ -1,0 +1,34 @@
+{
+  "label": "360p_cold_prefetch",
+  "variant": "360p",
+  "segments": 8,
+  "media_seconds": 46.613,
+  "wall_seconds": 32.341,
+  "master_ms": 0.49,
+  "playlist_ms": 0.38,
+  "ttff_ms": 336.3,
+  "first_segment_ms": 335.3,
+  "seg_ms": {
+    "min": 1.6,
+    "p50": 2.2,
+    "p95": 536.6,
+    "max": 536.6,
+    "mean": 112.2
+  },
+  "stalls": 0,
+  "stall_ms": 0.0,
+  "min_buffer_s": 6.0,
+  "bytes": 5350104,
+  "mbps": 0.918,
+  "server": {
+    "segment_requests": 8,
+    "cache_hit": 7,
+    "waited": 1,
+    "generated_by_request": 1,
+    "prefetch_generated": 7,
+    "prefetch_useful": 7,
+    "gen_avg_ms": 467.1,
+    "ttff_ms": 335.7,
+    "latency_p95": 535.26
+  }
+}
