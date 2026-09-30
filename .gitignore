@@ -4,3 +4,12 @@ cache/
 # Python
 __pycache__/
 *.pyc
+
+# 示例媒体文件：体积过大（单个最大 376 MiB），超出 GitHub 单文件 100 MiB 限制。
+# 请自行准备 media/ 下的样片，见 readme「快速开始」。
+media/*.mp4
+media/*.mkv
+media/*.mov
+
+# 本地历史备份
+*.bundle

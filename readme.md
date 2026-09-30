@@ -17,6 +17,11 @@ GET /stream/720p/seg3.ts      -> 命中缓存，直接读文件（几毫秒）
 
 ## 快速开始
 
+> **本仓库不含示例媒体文件。** 原始的 `media/*.mp4` 体积过大（单个最大 376 MiB，
+> 超出 GitHub 单文件 100 MiB 限制），已从版本库中移除并在 `.gitignore` 中忽略。
+> 请自行准备样片放到 `media/` 下；档位表按源分辨率在启动时生成，任意 mp4/mkv/mov 都能跑
+> （若想复现 readme 里的实测数据，需要 AV1 1080p 和 H.264 960x400 两种源）。
+
 ```bash
 python server.py                          # 默认 8080，默认源 = media/ 里的 av1 1080p 那个
 python server.py --source 1080            # 按关键字选 media/ 下的源（也可传完整路径）
